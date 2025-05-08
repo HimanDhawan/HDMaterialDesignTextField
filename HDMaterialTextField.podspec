@@ -16,14 +16,15 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HDMaterialTextField"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "HDMaterialTextField is replica of material design textfield in swiftui."
   spec.description = "HDMaterialTextField is a customizable Material Design text field for iOS."
   spec.homepage     = "https://github.com/HimanDhawan/HDMaterialDesignTextField"
-  spec.license = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = "MIT"
   spec.author             = { "Himan Dhawan" => "himandhawandhd@gmail.com" }
   spec.source       = { :git => "https://github.com/HimanDhawan/HDMaterialDesignTextField.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files = '*.swift'
+  spec.platform = :ios, '15.0'
   spec.exclude_files = "Classes/Exclude"
 
 
